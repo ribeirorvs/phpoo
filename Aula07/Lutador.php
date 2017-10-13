@@ -108,8 +108,8 @@ class Lutador {
     
     public function apresentar(){
         echo "<p>------------------------------------</p>";
-        echo "<p>Chegou a hora! O lutador" . $this->getNome();
-        echo "veio diretamente de " . $this->getNacionalidade();
+        echo "<p>Chegou a hora! O lutador " . $this->getNome();
+        echo " veio diretamente de " . $this->getNacionalidade();
         echo "tem " . $this->getIdade() . " anos e pesa " . $this->getIdade();
         echo ",<br>ele tem " . $this->getVitorias() . " vitorias ";
         echo $this->getDerrotas() . " derrotas e " . $this->getEmpates() . " empates";
